@@ -1,4 +1,4 @@
-% script to retrieve OpenFoam p and U data and interpolate
+% script to retrieve OpenFOAM p and U data and interpolate
 
 clc; clear all
 
