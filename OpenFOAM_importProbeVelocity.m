@@ -16,7 +16,7 @@ for i = 2:probes
 end
 
 % import velocity
-fileID = fopen([directory num2str(times(1)) '/' filename],'r');
+fileID = fopen([directory filename],'r');
 U = textscan(fileID,probestr,'headerlines',probes+2,... %the number of headers is 2 plus a list of the probes
     'delimiter',' ()','collectoutput',1,'multipledelimsasone',true);
 fclose(fileID);
