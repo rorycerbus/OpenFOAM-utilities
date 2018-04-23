@@ -2,7 +2,6 @@
 
 clc; clear all
 
-option = 1; % 0 is no interpolate, 1 is interpolate
 directory = '/Users/soda/Documents/Physics/OpenFOAM/pipe/iris/Re3000_100D_probes/';
 filename = 'U';
 probes = 6; % (remember that OpenFOAM numbering starts from 0!)
